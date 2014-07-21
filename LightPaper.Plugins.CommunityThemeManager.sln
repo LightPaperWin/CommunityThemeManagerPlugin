@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPaper.Plugins.CommunityThemeManager", "LightPaper.Plugins.CommunityThemeManager.csproj", "{09DC5EDA-05DC-42F7-B147-7BB53578804A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPaper.Infrastructure", "LightPaper.Infrastructure\LightPaper.Infrastructure.csproj", "{D735BDDC-32AF-4EAB-991F-05DF990001A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPaper.ResourceSatellite", "LightPaper.ResourceSatellite\LightPaper.ResourceSatellite.csproj", "{67020A86-B71F-4214-83C1-A83D4BA696CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09DC5EDA-05DC-42F7-B147-7BB53578804A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DC5EDA-05DC-42F7-B147-7BB53578804A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DC5EDA-05DC-42F7-B147-7BB53578804A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DC5EDA-05DC-42F7-B147-7BB53578804A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D735BDDC-32AF-4EAB-991F-05DF990001A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D735BDDC-32AF-4EAB-991F-05DF990001A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D735BDDC-32AF-4EAB-991F-05DF990001A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D735BDDC-32AF-4EAB-991F-05DF990001A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67020A86-B71F-4214-83C1-A83D4BA696CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67020A86-B71F-4214-83C1-A83D4BA696CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67020A86-B71F-4214-83C1-A83D4BA696CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67020A86-B71F-4214-83C1-A83D4BA696CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
