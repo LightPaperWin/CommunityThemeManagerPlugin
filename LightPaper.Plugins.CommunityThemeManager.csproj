@@ -38,6 +38,17 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ICSharpCode.AvalonEdit, Version=5.0.1.0, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\AvalonEdit.5.0.1-pre\lib\Net40\ICSharpCode.AvalonEdit.dll</HintPath>
+    </Reference>
+    <Reference Include="LightPaper.Infrastructure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\LightPaper.Infrastructure.0.0.1-pre\lib\LightPaper.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="LightPaper.ResourceSatellite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LightPaper.ResourceSatellite.0.0.1-pre\lib\LightPaper.ResourceSatellite.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.Prism.Composition">
       <HintPath>packages\Prism.Composition.5.0.0\lib\NET45\Microsoft.Practices.Prism.Composition.dll</HintPath>
     </Reference>
@@ -127,10 +138,6 @@
     <ProjectReference Include="..\..\LightPaper.Core\LightPaper.Core.csproj">
       <Project>{a3e45fe9-4d69-4202-b200-6d104e40b0b3}</Project>
       <Name>LightPaper.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\LightPaper.Infrastructure\LightPaper.Infrastructure.csproj">
-      <Project>{d735bddc-32af-4eab-991f-05df990001a2}</Project>
-      <Name>LightPaper.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
