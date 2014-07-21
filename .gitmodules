@@ -1,0 +1,3 @@
+[submodule "LightPaper.Infrastructure"]
+	path = LightPaper.Infrastructure
+	url = git@github.com:LightPaper/Infrastructure.git
