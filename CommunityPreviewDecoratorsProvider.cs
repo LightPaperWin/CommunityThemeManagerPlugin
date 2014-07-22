@@ -32,7 +32,7 @@ namespace LightPaper.Plugins.CommunityThemeManager
 
         private static IEnumerable<IPreviewDecorator> DecoratorsWithExtensions(string extension)
         {
-            var themesDir = MagicStrings.PathNames.THEMES_FOLDER_NAME.CombineWithLocalAppDataPath();
+            var themesDir = Path.Combine("Plugins".CombineWithLocalAppDataPath(), MagicStrings.PLUGIN_NAME, MagicStrings.PathNames.THEMES_FOLDER_NAME);
             return Directory.Exists(themesDir)
                 ? Directory.EnumerateFiles(themesDir, string.Format("*.{0}", extension), SearchOption.AllDirectories)
                     .Select(path => new LocalThemeDecorator(path) {GroupName = MagicStrings.DECORATORS_GROUP_NAME})

@@ -2,7 +2,7 @@
 {
     public class MagicStrings
     {
-        public const string PLUGIN_NAME = "PreviewDecorator";
+        public const string PLUGIN_NAME = "CommunityThemeManager";
         public const string PLUGIN_CATEGORY = "PreviewDecorator";
         public const string DECORATORS_GROUP_NAME = "Community";
         public const string CSS_EXTENSION = "css";
